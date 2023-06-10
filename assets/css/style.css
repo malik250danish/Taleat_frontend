@@ -146,9 +146,152 @@ color: #3F4254;
     border: none;
     background-color: #fff;
 }
+.roundImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+.pr3{
+    ont-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: lowercase;
+
+color: #000000;
+}
+.pr4{
+    ont-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.resCard{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+width: fit-content;
+padding-left: 7rem;
+padding-right: 7rem;
+}
+.resBtn{
+    background: #CC051C;
+border-radius: 5px;
+color:#fff;
+font-size: 600;
+}
+.opr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+   
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    display: contents;
+
+}
+.options{
+    background: #CC051C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+height: fit-content;
+
+}
+.optCard{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.optP1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #CC051C;
+}
+.optP2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    
+    color: #383535;
+    
+}
+.sap1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.uploadSection{
+    border: 1px dashed #B5B2B2;
+border-radius: 5px;
+width: fit-content;
+}
+.pr2{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #3F4254;
+}
 @media only screen and (max-width: 575px){
 	/*Big smartphones [426px -> 600px]*/
     .searchBox{
         display: none !important;
+    }
+}
+@media only screen and (max-width: 768px){
+	/*Big smartphones [426px -> 600px]*/
+    .resCard{
+        
+    padding-left: 3rem;
+    padding-right: 3rem;
     }
 }
