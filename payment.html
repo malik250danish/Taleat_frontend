@@ -492,33 +492,74 @@
             <div
               class="d-sm-flex align-items-center justify-content-between mb-4"
             >
-              <h1 class="pr1">Orders</h1>
+              <h1 class="pr1">Payment</h1>
             </div>
 
             <!-- Content Row -->
-            <div class="container mt-3">
+            <div class="container">
+              <div class="d-flex justify-content-between">
+                <p class="my-5 fw-bold">All Restaurants</p>
+                <button
+                  class="addBtn btn py-1 px-3"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  <i class="fa fa-plus"></i> Add New
+                </button>
+              </div>
               <div class="table-responsive">
                 <table class="table table-hover" id="Table_ID">
                   <thead class="">
                     <tr>
                       <th>Name</th>
                       <th>Type</th>
-                      <th>Quantity</th>
+                      <th>Order Price</th>
+                      <th>Fees</th>
+                      <th>Total</th>
+                      <th>Payment</th>
                     </tr>
                   </thead>
                   <tbody>
                     <!-- Table rows go here -->
                     <tr>
-                      <td>John maxe</td>
-                      <td>beef burger</td>
-
-                      <td>2</td>
+                      <td>John Doe</td>
+                      <td>Beef Burger</td>
+                      <td>20$</td>
+                      <td>0$</td>
+                      <td>20$</td>
+                      <td>20$</td>
                     </tr>
                     <tr>
-                      <td>Tyller griffon</td>
-                      <td>Large pizza</td>
-
-                      <td>3</td>
+                      <td>John Doe</td>
+                      <td>Beef Burger</td>
+                      <td>20$</td>
+                      <td>0$</td>
+                      <td>20$</td>
+                      <td>20$</td>
+                    </tr>
+                    <tr>
+                      <td>John Doe</td>
+                      <td>Beef Burger</td>
+                      <td>20$</td>
+                      <td>0$</td>
+                      <td>20$</td>
+                      <td>20$</td>
+                    </tr>
+                    <tr>
+                      <td>John Doe</td>
+                      <td>Beef Burger</td>
+                      <td>20$</td>
+                      <td>0$</td>
+                      <td>20$</td>
+                      <td>20$</td>
+                    </tr>
+                    <tr>
+                      <td>John Doe</td>
+                      <td>Beef Burger</td>
+                      <td>20$</td>
+                      <td>0$</td>
+                      <td>20$</td>
+                      <td>20$</td>
                     </tr>
                     <!-- Add more rows as needed -->
                   </tbody>
@@ -540,7 +581,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="d-flex justify-content-between px-3 py-2">
-              <h5 class="modalHead" id="myModalLabel">Add User</h5>
+              <h5 class="modalHead" id="myModalLabel">Add Extra Fees</h5>
               <button
                 type="button"
                 class="close"
@@ -556,15 +597,7 @@
                   type="text"
                   class="form-control custom-input"
                   id="username"
-                  placeholder="Restaurant Name"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control custom-input"
-                  id="password"
-                  placeholder="Location"
+                  placeholder="Enter Fees"
                 />
               </div>
             </div>
@@ -578,7 +611,7 @@
                   Cancel
                 </button>
                 <button type="button" class="btn addBtn px-5 py-2 mx-2">
-                  Add
+                  Submit
                 </button>
               </div>
             </div>
